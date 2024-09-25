@@ -1,0 +1,52 @@
+{
+  "cities": [
+    {
+      "id": "b5ee",
+      "cityName": "New York (Triumph of the Human Spirit)",
+      "country": "United States",
+      "emoji": "🇺🇸",
+      "date": "2024-09-24T15:43:18.889Z",
+      "notes": "",
+      "position": {
+        "lat": "40.71408859258486",
+        "lng": "-74.00291919708253"
+      }
+    },
+    {
+      "id": "b6a8",
+      "cityName": "Agra (Taj Mahal)",
+      "country": "India",
+      "emoji": "🇮🇳",
+      "date": "2024-09-25T08:53:02.433Z",
+      "notes": "",
+      "position": {
+        "lat": "27.174886693961735",
+        "lng": "78.0422616004944"
+      }
+    },
+    {
+      "id": "0a0d",
+      "cityName": "Rome (Colosseum)",
+      "country": "Italy",
+      "emoji": "🇮🇹",
+      "date": "2024-09-25T08:53:27.536Z",
+      "notes": "",
+      "position": {
+        "lat": "41.89039539574387",
+        "lng": "12.492313385009767"
+      }
+    },
+    {
+      "id": "0621",
+      "cityName": "Gorakhpur (Madan Mohan Malaviya University of Technology)",
+      "country": "India",
+      "emoji": "🇮🇳",
+      "date": "2024-09-25T08:53:40.125Z",
+      "notes": "",
+      "position": {
+        "lat": "26.72922766684531",
+        "lng": "83.43238592147829"
+      }
+    }
+  ]
+}
