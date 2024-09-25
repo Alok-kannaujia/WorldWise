@@ -71,7 +71,7 @@ function CitiesProvider({ children }) {
       dispatch({ type: "loading" });
 
       try {
-        const res = await fetch(https://citiesapi.vercel.app/cities);
+        const res = await fetch("https://citiesapi.vercel.app/cities");
         const data = await res.json();
         dispatch({ type: "cities/loaded", payload: data });
       } catch {
