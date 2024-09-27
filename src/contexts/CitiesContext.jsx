@@ -92,7 +92,7 @@ function CitiesProvider({ children }) {
       dispatch({ type: "loading" });
 
       try {
-        const res = await fetch(`/cities/${id}`);
+        const res = await fetch(`https://citiesapi-3bhr.onrender.com/cities/${id}`);
         const data = await res.json();
         dispatch({ type: "city/loaded", payload: data });
       } catch {
@@ -109,7 +109,7 @@ function CitiesProvider({ children }) {
     dispatch({ type: "loading" });
 
     try {
-      const res = await fetch(`/cities`, {
+      const res = await fetch(`https://citiesapi-3bhr.onrender.com/cities`, {
         method: "POST",
         body: JSON.stringify(newCity),
         headers: {
@@ -133,7 +133,7 @@ function CitiesProvider({ children }) {
     dispatch({ type: "loading" });
 
     try {
-      await fetch(`/cities/${id}`, {
+      await fetch(`https://citiesapi-3bhr.onrender.com/cities/${id}`, {
         method: "DELETE",
       });
 
