@@ -22,7 +22,7 @@ function CityItem({ city }) {
   return (
     <li>
       <Link
-        to={`${id}?lat=${position.lat}&lng=${position.lng}`}
+        to={`${id}?lat=${position?.lat}&lng=${position?.lng}`}
         className={`${styles.cityItem} ${
           id === currentCity.id ? styles["cityItem--active"] : ""
         }`}
