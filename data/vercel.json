@@ -1,15 +1,1 @@
-{
-  "version": 2,
-   "builds": [
-    {
-      "src": "./cities.json",
-      "use": "@vercel/node"
-    }
-],
-  "routes":[
-     {
-     "src": "/(.*)",
-     "dest": "/"
-     }
-  ]
-}
+
