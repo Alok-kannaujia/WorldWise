@@ -71,7 +71,7 @@ function CitiesProvider({ children }) {
       dispatch({ type: "loading" });
 
       try {
-        const res = await fetch(`/cities`);
+        const res = await fetch(`https://citiesapi-3bhr.onrender.com/cities`);
         const data = await res.json();
         console.log(data);
         dispatch({ type: "cities/loaded", payload: data });
